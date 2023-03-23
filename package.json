@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
-  "description": "Van Edelman's Portfolio",
-  "productName": "CorruptedSpoon_portfolio",
+  "description": "My portfolio website built with Quasar Framework and Vue 3",
+  "productName": "Van Edelman's Portfolio",
   "author": "CorruptedSpoon <vanedelman@gmail.com>",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build",
-    "deploy": "push-dir --dir=dist/spa --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist/spa --branch=gh-pages --cleanup",
+    "dev": "quasar dev"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
